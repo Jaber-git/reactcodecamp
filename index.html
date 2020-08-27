@@ -15,30 +15,42 @@
      <script>
      const name="jaber";
      const handle="@jaber";
-        const nameEl = React.createElement(
-              'h1',
-              null,
-              name
-         );
-         const handleEl = React.createElement(
-               'h3',
-               null,
-               handle
-          );
+     function NameComponent(props){
+       return React.createElement(
+             'h1',
+             null,
+             props.name
+        );
+     }
+     function HandleComponent(props){
+       return React.createElement(
+             'h3',
+             null,
+             props.handle
+        );
+     }
+
           // wrapper to wrapp
 
           const wrapperEl = React.createElement(
                 'div',
                 {id :'container'},
-                nameEl,
-                handleEl
-           );
-    ReactDOM.render(
+                React.createElement(
+                      NameComponent,
+                      {name:'jaber'}
+                 ),
+                 React.createElement(
+                       HandleComponent,
+                       {handle:'@jaber'}
+                  )
+                );
+
+     ReactDOM.render(
         wrapperEl,
         document.getElementById('app')
       );
 
-   console.log(headerEl);
+   //console.log(headerEl);
    console.log('React', window.React);
 
    </script>
