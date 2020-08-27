@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>First react App</title>
+    <!-- react js -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+   </head>
+  <body>
+
+    <div id="app">
+    </div>
+     <script>
+     const name="jaber";
+     const handle="@jaber";
+        const nameEl = React.createElement(
+              'h1',
+              null,
+              name
+         );
+         const handleEl = React.createElement(
+               'h3',
+               null,
+               handle
+          );
+          // wrapper to wrapp
+
+          const wrapperEl = React.createElement(
+                'div',
+                {id :'container'},
+                nameEl,
+                handleEl
+           );
+    ReactDOM.render(
+        wrapperEl,
+        document.getElementById('app')
+      );
+
+   console.log(headerEl);
+   console.log('React', window.React);
+
+   </script>
+
+
+
+  </body>
+</html>
