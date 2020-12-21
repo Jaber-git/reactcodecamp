@@ -19,7 +19,7 @@ Description for rule 1.
     </div>
 </div>
 
-table>
+<table>
 <tr>
 <th> Good </th>
 <th> Bad </th>
