@@ -1,3 +1,10 @@
+
+ <p align ="left" style="float:left ;"> paragraph </p>
+    
+ <p align="right" style="float:right ;"> paragraph right</p>
+    
+
+
 <p align="center">
 
 <a href="http://unlicense.org/">
@@ -18,12 +25,17 @@
 
 </p>
 
-
+ 
+  <p align ="left" style="float:left ;"> paragraph </p>
+    
+  <p align="right" style="float:right ;"> paragraph </p>
+    
     
 <div width="40%" style=" background-color:blue;">
     
-    <p align ="left" style="float:left ;"> paragraph </p>
-    <p align="right" style="float:right ;"> paragraph </p>
+ <p align ="left" style="float:left ;"> paragraph </p>
+    
+ <p align="right" style="float:right ;"> paragraph </p>
     
 <a href="http://unlicense.org/">
 <img src="https://img.shields.io/badge/license-Unlicense-blue.svg" alt="License: Unlicense">
