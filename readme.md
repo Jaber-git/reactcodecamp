@@ -22,7 +22,8 @@
     
 <div width="40%" style="float:left; background-color:blue;">
     
-    block
+    <p style="float:left; background-color:blue;" >paragraph </p>
+    
 <a href="http://unlicense.org/">
 <img src="https://img.shields.io/badge/license-Unlicense-blue.svg" alt="License: Unlicense">
 </a>
@@ -30,8 +31,11 @@
 <a href="https://github.com/markdown-templates/markdown-snippets/issues">
 <img src="https://img.shields.io/github/issues/markdown-templates/markdown-snippets.svg" alt="Issues">
 </a>
+
 </div>
+
 <div width="40%" style="float:left; color:red;">
+    
 <a href="https://github.com/markdown-templates/markdown-snippets/fork">
 <img src="https://img.shields.io/github/forks/markdown-templates/markdown-snippets.svg" alt="Forks">
 </a>
