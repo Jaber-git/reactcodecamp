@@ -10,7 +10,7 @@ Description for rule 1.
 }
 </code></pre>
     </div>
-    <div style="display: inline-block;">
+    <div style="display: inline-block; float:right;">
         <h2>Bad</h2>
         <pre><code class="language-c">int foo (void) {
     int i;
