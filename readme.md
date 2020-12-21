@@ -80,25 +80,25 @@ Description for rule 1.
 
     </p>
 
-
+``` 
 <table>
 <tr>
 <th> Good </th>
 <th> Bad </th>
 </tr>
 <tr>
-<td>
+<td
+    
   ```
-                c++
+                        c++
                         int foo() {
                             int result = 4;
                             return result;
                         }
-```
-
+ ```
 </td>
 <td>
-
+ 
 ```
 
                                                                 c++
@@ -108,7 +108,39 @@ Description for rule 1.
                                                                 }
 
 ```
+</td>
+</tr>
+</table>
+```
 
+turn into -
+<table>
+<tr>
+<th> Good </th>
+<th> Bad </th>
+</tr>
+<tr>
+<td
+    
+  ```
+                        c++
+                        int foo() {
+                            int result = 4;
+                            return result;
+                        }
+ ```
+</td>
+<td>
+ 
+```
+
+                                                                c++
+                                                                int foo() { 
+                                                                    int x = 4;
+                                                                    return x;
+                                                                }
+
+```
 </td>
 </tr>
 </table>
