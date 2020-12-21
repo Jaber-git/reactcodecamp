@@ -99,11 +99,14 @@ int foo() {
 </td>
 <td>
 
-```c++
-int foo() { 
-    int x = 4;
-    return x;
-}
+```
+<pre>
+                           c++
+                           int foo() { 
+                               int x = 4;
+                               return x;
+                           }
+</pre>
 ```
 
 </td>
