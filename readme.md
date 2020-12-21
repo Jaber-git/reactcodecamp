@@ -22,7 +22,7 @@
     
 <div width="40%" style=" background-color:blue;">
     
-    <p style="float:left; background-color:blue;" >paragraph </p>
+    <p style="float:right; background-color:blue;" >paragraph </p>
     
 <a href="http://unlicense.org/">
 <img src="https://img.shields.io/badge/license-Unlicense-blue.svg" alt="License: Unlicense">
