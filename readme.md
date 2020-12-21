@@ -2,7 +2,7 @@
 Description for rule 1.
 
 
-    <p align="left">
+    <p align="left" >
         <h2>Good</h2>
         <pre><code class="language-c">int foo (void) 
 {
