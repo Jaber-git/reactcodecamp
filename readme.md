@@ -1,5 +1,5 @@
 
- <p align ="left" style="display:inline-block;"> paragraph left </p>
+ <p align ="left" style="display:inline-block; color:red;"> paragraph left </p>
     
  <p align="right" style="display:inline-block;"> paragraph right</p>
     
