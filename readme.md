@@ -4,8 +4,7 @@ Description for rule 1.
 
     <p align="left" >
         <h2>Good</h2>
-        int foo (void) 
-{
+        int foo (void) {
     int i;
 }
 
