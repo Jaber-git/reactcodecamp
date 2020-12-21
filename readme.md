@@ -1,7 +1,7 @@
 
- <p align ="left" style="float:left ;"> paragraph </p>
+ <p align ="left" style="display:inline-block;"> paragraph left </p>
     
- <p align="right" style="float:right ;"> paragraph right</p>
+ <p align="right" style="display:inline-block;"> paragraph right</p>
     
 
 
