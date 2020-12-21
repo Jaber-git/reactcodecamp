@@ -88,25 +88,25 @@ Description for rule 1.
 </tr>
 <tr>
 <td>
-
-```c++
-int foo() {
-    int result = 4;
-    return result;
-}
+```
+              c++
+             int foo() {
+                 int result = 4;
+                 return result;
+             }
 ```
 
 </td>
 <td>
 
 ```
-<pre>
-                           c++
-                           int foo() { 
-                               int x = 4;
-                               return x;
-                           }
-</pre>
+
+                                                                c++
+                                                                int foo() { 
+                                                                    int x = 4;
+                                                                    return x;
+                                                                }
+
 ```
 
 </td>
