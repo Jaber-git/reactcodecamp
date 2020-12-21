@@ -126,3 +126,9 @@ end tell
     beep
 end tell
 </code></pre>
+
+```
+<table>     <tr>         <td># Massgeschneiderte<br>Lösungen für Firmen<br>und Privatpersonen</td>         <td>![](illu.png)</td>     </tr> </table>
+```
+turn into
+<table>     <tr>         <td># Massgeschneiderte<br>Lösungen für Firmen<br>und Privatpersonen</td>         <td>![](illu.png)</td>     </tr> </table>
