@@ -20,7 +20,7 @@
 
 
     
-<div width="40%" style="float:left; background-color:blue;">
+<div width="40%" style=" background-color:blue;">
     
     <p style="float:left; background-color:blue;" >paragraph </p>
     
@@ -34,7 +34,7 @@
 
 </div>
 
-<div width="40%" style="float:left; color:red;">
+<div width="40%" style="color:red;">
     
 <a href="https://github.com/markdown-templates/markdown-snippets/fork">
 <img src="https://img.shields.io/github/forks/markdown-templates/markdown-snippets.svg" alt="Forks">
