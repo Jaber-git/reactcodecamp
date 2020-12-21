@@ -1,7 +1,7 @@
 # Rule 1
 Description for rule 1.
 
-<div style="float:left ;width:100%;">
+<div style="width:100%;">
     <div style="display: inline-block; width:50%;"">
         <h2>Good</h2>
         <pre><code class="language-c">int foo (void) 
