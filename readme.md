@@ -1,23 +1,23 @@
 # Rule 1
 Description for rule 1.
 
-<div style="width:100%;">
-    <div style="display: inline-block; width:50%;"">
+
+    <p align="left">
         <h2>Good</h2>
         <pre><code class="language-c">int foo (void) 
 {
     int i;
 }
 </code></pre>
-    </div>
-    <div style="display: inline-block; width:45%;">
+    </p>
+    <p align="right">
         <h2>Bad</h2>
         <pre><code class="language-c">int foo (void) {
     int i;
 }
 </code></pre>
-    </div>
-</div>
+    </p>
+
 
 <table>
 <tr>
