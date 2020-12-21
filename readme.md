@@ -120,15 +120,15 @@ turn into -
 <th> Bad </th>
 </tr>
 <tr>
-<td
-    
-                        ```
+<td>
+ 
+ ```
                         c++
                         int foo() {
                             int result = 4;
                             return result;
                         }
-                         ```
+```
 </td>
 <td>
  
