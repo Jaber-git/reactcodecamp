@@ -89,13 +89,13 @@ Description for rule 1.
 <tr>
 <td
     
-  ```
-                        c++
-                        int foo() {
-                            int result = 4;
-                            return result;
-                        }
- ```
+```
+                           c++
+                           int foo() {
+                               int result = 4;
+                               return result;
+                           }
+```
 </td>
 <td>
  
@@ -122,13 +122,13 @@ turn into -
 <tr>
 <td
     
-  ```
+                        ```
                         c++
                         int foo() {
                             int result = 4;
                             return result;
                         }
- ```
+                         ```
 </td>
 <td>
  
