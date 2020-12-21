@@ -20,7 +20,7 @@
 
 <div  width="100%">
     
-<div width="40%">
+<div width="40%" style="display: inline-block;">
     
 <a href="http://unlicense.org/">
 <img src="https://img.shields.io/badge/license-Unlicense-blue.svg" alt="License: Unlicense">
@@ -30,7 +30,7 @@
 <img src="https://img.shields.io/github/issues/markdown-templates/markdown-snippets.svg" alt="Issues">
 </a>
 </div>
-<div width="40%">
+<div width="40%" style="display: inline-block;">
 <a href="https://github.com/markdown-templates/markdown-snippets/fork">
 <img src="https://img.shields.io/github/forks/markdown-templates/markdown-snippets.svg" alt="Forks">
 </a>
