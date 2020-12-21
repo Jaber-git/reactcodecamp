@@ -22,8 +22,8 @@
     
 <div width="40%" style=" background-color:blue;">
     
-    <p align ="left" style="display: inline ;"> paragraph </p>
-    <p align="right" style="display: inline ;"> paragraph </p>
+    <p align ="left" style="float:left ;"> paragraph </p>
+    <p align="right" style="float:right ;"> paragraph </p>
     
 <a href="http://unlicense.org/">
 <img src="https://img.shields.io/badge/license-Unlicense-blue.svg" alt="License: Unlicense">
