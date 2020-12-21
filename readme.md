@@ -1,7 +1,7 @@
 
-> <span align ="left" style="display:inline-block; color:red;"> paragraph left </span>
+ <span align ="left" > span left </span>
     
-> <span align="right" style="display:inline-block;"> paragraph right</span>
+ <span align="right" > span right</span>
     
 
 
