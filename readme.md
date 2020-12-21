@@ -4,18 +4,18 @@ Description for rule 1.
 
     <p align="left" >
         <h2>Good</h2>
-        <pre>int foo (void) 
+        int foo (void) 
 {
     int i;
 }
-</pre>
+
     </p>
     <p align="right">
         <h2>Bad</h2>
-        <pre>int foo (void) {
+      int foo (void) {
     int i;
 }
-</pre>
+
     </p>
 
 
