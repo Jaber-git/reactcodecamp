@@ -69,3 +69,60 @@ Description for rule 1.
     </div>
 </div>
 
+Blockquotes can contain other Markdown elements, including headers, lists, and code blocks:
+
+> ## This is a header.
+> 
+> 1.   This is the first list item.
+> 2.   This is the second list item.
+> 
+> Here's some example code:
+> 
+>     return shell_exec("echo $input | $markdown_script");
+
+<br>
+To produce a code block in Markdown, simply indent every line of the block by at least 4 spaces or 1 tab. For example, given this input:
+
+This is a normal paragraph:
+
+    This is a code block.
+
+Markdown will generate:
+
+```
+<p>This is a normal paragraph:</p>
+
+<pre><code>This is a code block.
+</code></pre>
+```
+<br>
+
+<p>This is a normal paragraph:</p>
+
+<pre><code>This is a code block.
+</code></pre>
+<br>
+One level of indentation — 4 spaces or 1 tab — is removed from each line of the code block. For example, this:
+
+Here is an example of AppleScript:
+
+    tell application "Foo"
+        beep
+    end tell
+
+will turn into:
+```
+<p>Here is an example of AppleScript:</p>
+
+<pre><code>tell application "Foo"
+    beep
+end tell
+</code></pre>
+```
+
+<p>Here is an example of AppleScript:</p>
+
+<pre><code>tell application "Foo"
+    beep
+end tell
+</code></pre>
