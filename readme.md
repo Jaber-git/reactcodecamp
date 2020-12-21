@@ -1,8 +1,8 @@
 # Rule 1
 Description for rule 1.
 
-<div style="float:left ;width:50%;">
-    <div style="display: inline-block;">
+<div style="float:left ;width:100%;">
+    <div style="display: inline-block; width:50%;"">
         <h2>Good</h2>
         <pre><code class="language-c">int foo (void) 
 {
@@ -10,7 +10,7 @@ Description for rule 1.
 }
 </code></pre>
     </div>
-    <div style="display: inline-block; float:right; width:45%;">
+    <div style="display: inline-block; width:45%;">
         <h2>Bad</h2>
         <pre><code class="language-c">int foo (void) {
     int i;
